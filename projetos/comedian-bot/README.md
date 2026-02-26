@@ -6,7 +6,7 @@ Demo online: [https://giovannijorge.github.io/html-mimo/projetos/comedian-bot/](
 
 Descrição
 --------
-Comedian Bot é um pequeno projeto em HTML, CSS e JavaScript que fornece piadas e trocadilhos usando uma API pública de piadas. A aplicação permite obter piadas aleatórias, filtrar por categoria, buscar por palavra-chave, salvar favoritas e compartilhar. Foi pensado como um exercício prático de consumo de APIs, manipulação do DOM, armazenamento local e boas práticas front-end.
+Comedian Bot é um pequeno projeto em HTML, CSS e JavaScript que exibe piadas e trocadilhos de forma interativa. A aplicação permite obter piadas aleatórias, filtrar por categoria, buscar por palavra-chave, salvar favoritas e compartilhar. Foi pensado como um exercício prático de manipulação do DOM, armazenamento local e boas práticas front-end.
 
 Funcionalidades
 --------------
@@ -33,10 +33,9 @@ Como usar
 
 Como funciona
 -------------
-A aplicação faz requisições à API pública de piadas (por exemplo, JokeAPI — https://v2.jokeapi.dev/) usando fetch:
-- Endpoint base: `https://v2.jokeapi.dev/joke/`
-- Parâmetros usados: `category` (ex.: Programming,Misc), `contains` (busca por termo), `type` (single / twopart), `amount` (quantidade)
-- Os resultados são processados e renderizados dinamicamente como cards de piada.
+A aplicação gerencia um conjunto de piadas armazenadas localmente e permite interagir com elas:
+- Filtragem dinâmica por categoria e busca por palavra-chave.
+- Os resultados são renderizados dinamicamente como cards de piada.
 - Para cada piada é possível: favoritar (salvar em localStorage), ouvir (SpeechSynthesis), compartilhar (Web Share API) ou copiar.
 - Estados de carregamento e mensagens de erro são exibidos para melhorar a experiência do usuário.
 
@@ -48,9 +47,9 @@ Boas práticas aplicadas:
 
 Exemplos
 --------
-- Obter uma piada de programação:
-  - Ação: selecionar `Programming` e clicar em "Piada aleatória"
-  - Resultado: uma piada relacionada ao universo da programação
+- Obter uma piada aleatória:
+  - Ação: clicar em "Piada aleatória"
+  - Resultado: uma piada é exibida aleatoriamente
 - Buscar por palavra:
   - Entrada: `bug`
   - Resultado: lista com piadas que contém "bug" no texto
@@ -61,7 +60,7 @@ Arquivos principais
 -------------------
 - `index.html` — interface do usuário.
 - `style.css` — estilos e layout responsivo.
-- `script.js` — lógica de consumo da API, filtros, busca, favoritos, TTS e manipulação do DOM.
+- `script.js` — lógica de filtragem, busca, favoritos, TTS e manipulação do DOM.
 - `preview.png` — imagem de preview usada neste README.
 
 Tecnologias
@@ -69,10 +68,8 @@ Tecnologias
 - HTML5
 - CSS3
 - JavaScript (vanilla)
-- Fetch API
 - Web Storage (localStorage)
 - Web Speech API (SpeechSynthesis)
-- JokeAPI (https://v2.jokeapi.dev/) ou alternativa pública de piadas
 
 Acessibilidade e boas práticas
 ------------------------------
@@ -84,7 +81,7 @@ Acessibilidade e boas práticas
 Contribuição
 ------------
 Contribuições são bem-vindas. Sugestões:
-- Adicionar mais fontes de piadas ou fallback quando a API estiver indisponível.
+- Adicionar mais piadas ou melhorar a base de dados existente.
 - Melhorar filtragem e paginação de resultados.
 - Implementar testes unitários ou E2E.
 - Melhorar a usabilidade e acessibilidade (por exemplo, controles de velocidade/voz).
