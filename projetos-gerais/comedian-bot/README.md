@@ -2,7 +2,7 @@
 
 ![Preview do projeto](preview.png)
 
-Demo online: [https://giovannijorge.github.io/html-mimo/projetos-gerais/comedian-bot/](https://giovannijorge.github.io/html-mimo/projetos-gerais/comedian-bot/)
+Demo online: [https://giovannijorge.github.io/javascript-mimo/projetos-gerais/comedian-bot/](https://giovannijorge.github.io/javascript-mimo/projetos-gerais/comedian-bot/)
 
 Descrição
 --------
