@@ -2,7 +2,7 @@
 
 ![Preview do projeto](preview.png)
 
-Demo online: [https://giovannijorge.github.io/javascript-mimo/projetos/pixel-paws/](https://giovannijorge.github.io/javascript-mimo/projetos/pixel-paws/)
+Demo online: [https://giovannijorge.github.io/javascript-mimo/projetos-gerais/pixel-paws/](https://giovannijorge.github.io/javascript-mimo/projetos-gerais/pixel-paws/)
 
 Descrição
 --------
