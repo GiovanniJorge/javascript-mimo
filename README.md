@@ -9,7 +9,6 @@ Exercícios e projetos relacionados ao curso "JavaScript" da Mimo — coleção 
 
 ## Badges
 - Licença: MIT (ver arquivo LICENSE)
-- Linguagem: JavaScript (74.2%), CSS (14.2%), HTML (11.6%)
 
 ## Sumário
 - [Visão geral](#visão-geral)
@@ -198,14 +197,6 @@ Contribuições são bem-vindas (ex.: correções, melhorias de documentação, 
 ## Licença
 Este repositório utiliza a licença MIT — consulte o arquivo `LICENSE` na raiz.
 
-Isso permite que você use, modifique e distribua o código livremente, desde que inclua uma cópia da licença.
-
 ## Autor / Contato
-**Autor**: Giovanni Jorge  
-**Repositório**: https://github.com/GiovanniJorge/javascript-mimo  
-**Curso de referência**: JavaScript - Mimo  
-
-Para dúvidas, sugestões ou problemas:
-- Abra uma **issue** neste repositório.
-- Consulte os `README.md` individuais de cada projeto para exemplos específicos.
-- Verifique a **documentação da Mimo** para contexto do curso.
+Autor: Giovanni Jorge  
+Repositório: https://github.com/GiovanniJorge/javascript-mimo  
