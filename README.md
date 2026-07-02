@@ -10,6 +10,7 @@ Exercícios e projetos relacionados ao curso "JavaScript" da Mimo — coleção 
 
 ## Badges
 ![Licença](https://img.shields.io/github/license/GiovanniJorge/javascript-mimo?style=flat-square)
+![Projetos](https://img.shields.io/badge/quantidade-8%20projetos-blue?style=flat-square)
 
 ## Sumário
 - [Visão geral](#visão-geral)
@@ -26,6 +27,7 @@ Este repositório organiza pequenos projetos e exercícios em JavaScript que exe
 ## Estrutura do repositório
 Top-level:
 ```text
+├── .gitattributes
 ├── LICENSE                  # Licença MIT
 ├── README.md                # Este arquivo
 └── projetos-gerais/         # Projetos práticos completos
