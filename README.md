@@ -28,6 +28,7 @@ Este repositório organiza pequenos projetos e exercícios em JavaScript que exe
 Top-level:
 ```text
 ├── .gitattributes
+├── .gitignore
 ├── LICENSE                  # Licença MIT
 ├── README.md                # Este arquivo
 └── projetos-gerais/         # Projetos práticos completos
